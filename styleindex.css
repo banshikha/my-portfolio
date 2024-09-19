@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('home_screen\ .jpg');
+    background-repeat: repeat;
+    background-position: center;
+}
+.container{
+    display: flex;
+}
+.imgs{
+    height: 100vh;
+    width:40vw;
+}
+#pic1{
+    padding: 50px;
+    padding-top: 60px;
+    
+}
+.container2{
+    height:500px;
+    width: 650px;
+    background: linear-gradient(90deg, #bd33d5 0%, #daae51 100%);
+    transform: translate(-60px,150px);
+    border-radius: 10%;
+    border: solid 3px black;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+display: flex;
+justify-content: space-between;
+padding: 9px;
+padding:5%;
+opacity: 0.9;
+}
+.content{
+    font-weight: 1000;
+    color: rgb(9, 5, 1);
+
+}
+.c21{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    padding: 10px;
+}
+
+
+.c22{height: 100%;
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border: solid 2px rebeccapurple;
+
+}
+.box{margin: 15px;
+    height: 70px;
+    width: 150px;
+    background-color: rgb(153, 203, 224);
+    border-radius: 6%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+  
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.box:hover{
+    background-color: rgb(75, 4, 53);
+    opacity:0.4;
+    cursor: pointer;
+}
+
+
+
+
+#mai{
+    font-weight: 900;
+    color: rgb(10, 96, 98);
+    font-size: 70px;
+}
+#likho{
+    color: rgb(19, 11, 11);
+    font-weight: 700;
+}
+.contact{
+    margin: 30px;
+    height: 70px;
+    width: 200px;
+    background-color: rgb(64, 143, 169);
+    border-radius: 4%;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    transform: translate(-40px,15px);
+    font-size: larger;
+}
+.contact:hover{
+    background-color: rgb(75, 4, 53);
+    opacity:0.4;
+    cursor: pointer;
+}
